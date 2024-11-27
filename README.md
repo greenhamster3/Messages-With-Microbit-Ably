@@ -10,7 +10,7 @@ In order to set up the Microbit we first need a couple of things:
 - Simple wifi (Username + Password only - although there are likley workarounds)
 - Another computer with internet access (though seeing as you're reading this, you probably have one).
 
-### You can see what to buy [__here__](hardware/hardware.md)
+### You can see what to buy [__here__](Hardware/hardware.md)
 
 - Flash the Microbit with the code in the src folder. (You will need to edit the Wi-fi settings first)
 >See how to flash the Microbit, and other things alike, take a look at the [User Guide](https://microbit.org/get-started/user-guide/introduction/)
