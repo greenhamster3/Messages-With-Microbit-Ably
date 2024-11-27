@@ -25,12 +25,12 @@ For this I used the free [Ably MQTT broker]((https://ably.com))
 - Create an account with ably (or I suppose another MQTT based broker)
 - Create a new app
 - Go to "API keys" and "Show"
--Copy the key to where the API is specified in src
+- Copy the key to where the API is specified in src
 >You should NEVER hard-code and API key, however for our purposes, we don't need to worry about security
 
--Run the code
+- Run the code
 
 Unfortunately, the code is only available in Python as I don't know JS or TS. However if anybody would be willing to translate into any other languages, that would be so much appreciated!!
 
 ## Getting a server (On the Microbit)
-Again, copy the code accross and swap out the placeholders with your infomation.
+Again, copy the code accross and swap out the placeholders with your infomation, and flash.
