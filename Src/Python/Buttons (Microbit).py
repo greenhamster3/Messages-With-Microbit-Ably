@@ -13,14 +13,14 @@ def on_button_pressed_b():
 input.on_button_pressed(Button.B, on_button_pressed_b)
 
 ESP8266_IoT.init_wifi(SerialPin.P8, SerialPin.P12, BaudRate.BAUD_RATE115200)
-ESP8266_IoT.connect_wifi("sunnyside", "corrinaanddave081211")
+ESP8266_IoT.connect_wifi("Wifi", "password)
 
 def on_forever():
     if not (ESP8266_IoT.is_mqtt_broker_connected()):
         ESP8266_IoT.set_mqtt(ESP8266_IoT.SchemeList.TLS,
-            "Micro",
-            "v2GmQQ.p5VB0w",
-            "fwTkiXMWWjt4PZaEBzpPJaGawVvMyWZJhuxSWFFxsSk",
+            "IDENTIFIER",
+            "UPTO :",
+            "AFTER :",
             "mqtt")
         ESP8266_IoT.connect_mqtt("mqtt.ably.io", 8883, False)
         basic.pause(10000)
